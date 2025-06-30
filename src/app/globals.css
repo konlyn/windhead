@@ -40,6 +40,10 @@
   .hero-background {
     background: url("/big-data1.png");
   }
+
+  .team-image {
+    background: url("/Team.png")
+  }
 }
 
 @layer background {

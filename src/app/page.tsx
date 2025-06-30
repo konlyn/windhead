@@ -1,8 +1,10 @@
+import Hero from "@/components/pages/home/Hero";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex">
-    </div>
+    <main className="flex flex-col">
+      <Hero />
+    </main>
   );
 }
