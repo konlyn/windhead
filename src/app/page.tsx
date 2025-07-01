@@ -1,4 +1,4 @@
-import Hero from "@/components/pages/home/Hero";
+import Hero from "@/components/pagesTsx/home/Hero";
 import Image from "next/image";
 
 export default function Home() {

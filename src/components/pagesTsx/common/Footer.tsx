@@ -5,7 +5,7 @@ import buildId from '@/systems/buildId'
 const Footer = () => {
   return (
     <footer className="py-10 font-['Inria_Serif'] text-white footer-background">
-        <div className="flex flex-wrap justify-between gap-10 mb-8 px-8 mx-10">
+        <div className="flex flex-wrap md:items-start items-center md:justify-between justify-center gap-10 mb-8 px-8 mx-10">
             {/* Coluna: Serviços */}
             <div className="flex-1 min-w-[150px]">
                 <h4 className="mb-1 font-bold text-lg">Serviços</h4>
@@ -60,8 +60,8 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-white/20 pt-5 px-8 flex flex-col md:flex-row md:items-center md:justify-between gap-4 ml-17 mr-17 mx-10">
-            <div className="flex items-center gap-2 text-sm bg-neutral-700 px-3 py-1">
-                <img src="https://flagcdn.com/w40/br.png" alt="Brasil" width="15" height="10" />
+            <div className="inline-flex max-w-max items-center gap-2 text-sm bg-neutral-800 px-3 py-1 rounded">
+                <img className='max-w-5 max-h-4' src="https://flagcdn.com/w40/br.png" alt="Brasil" />
                 <span>Brasil</span>
             </div>
 

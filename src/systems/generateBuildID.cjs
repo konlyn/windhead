@@ -8,7 +8,7 @@ try {
   const timestamp = new Date().toISOString().replace(/[:.]/g, "-");
   const buildId = `${timestamp}-${commitHash}`;
 
-  const outputPath = path.join(__dirname, "src", "systems", "buildId.js");
+  const outputPath = path.join(__dirname, "buildId.js");
   fs.writeFileSync(outputPath, `export default "${buildId}";\n`);
   console.log("✅ Build ID gerado:", buildId);
 } catch (err) {

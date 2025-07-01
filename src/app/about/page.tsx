@@ -1,5 +1,4 @@
-import AboutHero from "@/components/pages/aboutPage/AboutHero";
-
+import AboutHero from "@/components/pagesTsx/aboutPage/AboutHero";
 
 export default function AboutPage() {
   return (
