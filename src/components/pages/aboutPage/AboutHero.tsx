@@ -18,35 +18,37 @@ const AboutHero = () => {
         </div>
       </div>
 
-       {/* Bloco cinza: nossa equipe */}
-      <div className="bg-gray-600 shadow-md max-w-3xl w-full px-6 py-8 rounded text-white absolute">
-        <div className="flex flex-col gap-4 text-start">
-          <h3 className="text-lg font-semibold">Nossa Equipe</h3>
-          <h2 className="text-2xl sm:text-3xl font-black">Especialista em Estatística</h2>
-          <p className="text-base sm:text-lg w-full sm:w-4/5">
-            Por trás do nosso trabalho está uma equipe multidisciplinar formada por estatísticos, analistas de dados,
-            cientistas, professores e profissionais com ampla experiência em diversos setores que utilizam a Estatística
-            como ferramenta essencial.
-          </p>
-          <p className="text-base sm:text-lg w-full sm:w-4/5">
-            Nossos especialistas são apaixonados por transformar dados em soluções. Com formações sólidas em Estatística,
-            Matemática, Ciência de Dados e áreas correlatas, eles unem conhecimento técnico e visão prática para entregar
-            análises precisas, conteúdo de qualidade e suporte confiável.
-          </p>
+      {/* Bloco cinza: nossa equipe */}
+      <div className='relative'>
+        <div className="bg-gray-600 shadow-md max-w-3xl px-6 py-8 rounded text-white">
+          <div className="flex flex-col gap-4 text-start">
+            <h3 className="text-lg font-semibold">Nossa Equipe</h3>
+            <h2 className="text-2xl sm:text-3xl font-black">Especialista em Estatística</h2>
+            <p className="text-base sm:text-lg w-full sm:w-4/5 block max-w-[40ch]">
+              Por trás do nosso trabalho está uma equipe multidisciplinar formada por estatísticos, analistas de dados,
+              cientistas, professores e profissionais com ampla experiência em diversos setores que utilizam a Estatística
+              como ferramenta essencial.
+            </p>
+            <p className="text-base sm:text-lg w-full sm:w-4/5 max-w-[40ch]">
+              Nossos especialistas são apaixonados por transformar dados em soluções. Com formações sólidas em Estatística,
+              Matemática, Ciência de Dados e áreas correlatas, eles unem conhecimento técnico e visão prática para entregar
+              análises precisas, conteúdo de qualidade e suporte confiável.
+            </p>
+          </div>
         </div>
-      </div>
-      
-      <div className="relative w-full max-w-md mx-auto shadow-lg rounded overflow-hidden">
-        {/* Imagem */}
-        <Image
-          src={team}
-          alt="Imagem da equipe"
-          className="w-full h-auto object-cover"
-        />
+
+        <div className="relative w-full max-w-md mx-auto shadow-lg rounded overflow-hidden">
+          {/* Imagem */}
+          <Image
+            src={team}
+            alt="Imagem da equipe"
+            className="w-full h-auto object-cover"
+          />
+        </div>
 
         {/* Bookmark */}
-        <div className="absolute top-0 left-30 z-10 w-[3.9vw] h-[10.4vh] rounded-bl-[10px] bg-[#D9D9D9] shadow-[0_4px_0_rgba(0,0,0,0.25)]" />
-        <div className="absolute top-0 left-[3.9vw] z-[5] w-[3.9vw] h-[10.4vh] rounded-tr-[10px] bg-[#C5C5C5] shadow-[0_4px_0_rgba(0,0,0,0.25)]" />
+          <div className="absolute bottom-7 top-0 left-30 z-10 w-[3.9vw] h-[10.4vh] rounded-bl-[10px] bg-[#D9D9D9] shadow-[0_4px_0_rgba(0,0,0,0.25)]" />
+          <div className="absolute top-0 left-[3.9vw] z-[5] w-[3.9vw] h-[10.4vh] rounded-tr-[10px] bg-[#C5C5C5] shadow-[0_4px_0_rgba(0,0,0,0.25)]" />
       </div>
     </section>
   )
